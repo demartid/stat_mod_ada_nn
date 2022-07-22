@@ -27,7 +27,7 @@ beta=2 --> Relaxational oscillations
 The feedback strength is c = 0.01 in all cases.
 
 
-3) test_MEG.mat (to be downloaded from external link provided):
+3) test_MEG.mat (to be downloaded from https://drive.google.com/file/d/1S2ukvDcCNEtCLPNztavp3pJQDd303azi/view?usp=sharing):
 
 Example of a MEG data set with 273 signals (one for each sensor) sampled at 600 Hz for 4 min (144000 samples). This file contains a matrix 273 x 144000.
 
