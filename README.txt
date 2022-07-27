@@ -1,7 +1,7 @@
 Supporting information to the article 
 "Statistical modeling of adaptive neural networks 
 explains coexistence of avalanches and oscillations in resting human brain"
-by F. Lombardi et al.
+by F. Lombardi et al. https://arxiv.org/abs/2108.06686
 
 FILES DESCRIPTION
 
