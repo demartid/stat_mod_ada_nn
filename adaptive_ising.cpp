@@ -37,9 +37,6 @@ double H;           //external field
 double beta=2;              // inverse temperature   
 double dt = 1./double(N);          // time update 
 double c = 0.01;              // feedback strength
-int wait =100;                 // waiting time before printing/measuring
-int tot =10000000;                      // total time of the simulation             1=one sweep over N spins
-
 
 
 
@@ -76,6 +73,8 @@ void update(){
 int main (){
     srand(time(0));              // seed for the random number generator
     int t=0;                     // time 1=sweep over N spins
+    int wait =100;               // waiting time before printing/measuring
+    int tot =10000000;           // total time of the simulation             1=one sweep over N spins
     init();
     do{
              if(t>wait)  cout << m << "  " << H << endl;          // print m and H
