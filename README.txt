@@ -9,7 +9,7 @@ FILES DESCRIPTION
 1) adaptive_ising.cpp:
 
 c++ source code implementation of the Montecarlo Gibbs (asynchronous heat bath) sampler to simulate the adaptive Ising model in a fully connected geometry.
-It takes in input the size of the system (number of neurons, N), beta ("inverse temperature" of the Ising model), and the feedback strength (c), and it returns in output the time trace of the ongoing network activity (m) and the adaptive feedback (h). The latter are sampled with rate 1 (arbitrary units). The code can be easily modified to report in output about microscopic values as encoded in the neuronal activity variables ("spins" s[N]). This is a source code and must be compiled using a c++ compiler (e.g. c++) before running it.
+It takes in input the size of the system (number of neurons, N), beta ("inverse temperature" of the Ising model), and the feedback strength (c), and it returns in output the time trace of the ongoing network activity (m) and the adaptive feedback (h). The latter are sampled with rate 1 (arbitrary units). The code can be easily modified to report in output about microscopic values as encoded in the neuronal activity variables ("spins" s[N]). This is a source code and must be compiled using a c++ compiler (e.g. c++ -o executable_name adaptive_ising.cpp) before running it.
 
 
 2) beta05.dat,beta09.dat,beta1.dat,beta1.1.dat,beta2.dat:
